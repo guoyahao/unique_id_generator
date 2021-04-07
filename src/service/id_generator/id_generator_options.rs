@@ -22,13 +22,13 @@ impl IdGeneratorOptions {
     pub fn new(worker_id: u32) -> IdGeneratorOptions {
         return IdGeneratorOptions {
             method: 1,
-            worker_id: worker_id,
+            worker_id,
             base_time: 1582136402000,
             worker_id_bit_length: 6,
-            seq_bit_length: 6,
+            seq_bit_length: 12,
             max_seq_number: 0,
             min_seq_number: 5,
-            top_over_cost_count: 2000,
+            top_over_cost_count: 100000,
         };
     }
 }
