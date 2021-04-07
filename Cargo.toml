@@ -1,0 +1,12 @@
+[package]
+name = "unique_id_generator"
+version = "0.1.0"
+authors = ["guoyahao <515449117@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "3"
+chrono = "0.4.10"
+lazy_static = "1.4.0"
